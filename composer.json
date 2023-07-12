@@ -1,0 +1,20 @@
+{
+  "name": "wgr/php-newsletter-infomaniak",
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wgr\\Newsletter\\Infomaniak\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Wgr\\Newsletter\\Infomaniak\\Test\\": "tests"
+    }
+  }
+}
